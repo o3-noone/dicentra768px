@@ -141,11 +141,13 @@
   font-size: 25px;
   width: 482px;
   margin-left: 83px;
+  color: #292933;
 }
 .gullar-haqida_list {
   list-style: none;
   display: flex;
   width: 100%;
+  margin-left: -20px;
 }
 .gullar-haqida_list li {
   width: 50%;
