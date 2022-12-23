@@ -150,9 +150,9 @@
   margin-left: -20px;
 }
 .gullar-haqida_list li {
+  margin: 5px;
   width: 50%;
   flex-wrap: wrap;
-  border: 1px solid red;
 }
 .gullar-haqida_list li p {
   color: #292933;
@@ -168,12 +168,10 @@
   .gullar-haqida .gullar_text {
     text-align: center;
     width: 300px;
-    border: 1px solid red;
-    margin-left: 25px;
+    margin-left: 24px;
   }
   .gullar-haqida_list {
     width: 100%;
-    border: 1px solid red;
     flex-wrap: wrap;
     margin-left: 1px;
   }

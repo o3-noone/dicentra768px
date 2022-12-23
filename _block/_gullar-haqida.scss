@@ -13,9 +13,9 @@
         width: 100%;
         margin-left: -20px;
         li {
+            margin: 5px;
             width: 50%;
             flex-wrap: wrap;
-            border: 1px solid red;
             p {
                 color: #292933;
             }
@@ -32,12 +32,10 @@
         .gullar_text {
             text-align: center;
             width: 300px;
-            border: 1px solid red;
-            margin-left: 25px;
+            margin-left: 24px;
         }
         &_list {
             width: 100%;
-            border: 1px solid red;
             flex-wrap: wrap;
             margin-left: 1px;
             li {
