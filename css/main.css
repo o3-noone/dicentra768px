@@ -185,6 +185,7 @@
 .tavarlar {
   width: 768px;
   margin: 0 auto;
+  background-color: #F6F3F1;
 }
 .tavarlar .tavarlar_top {
   width: 100%;
@@ -196,7 +197,6 @@
 }
 .tavarlar .tavarlar_top ul {
   list-style: none;
-  border: 1px solid red;
 }
 .tavarlar .tavarlar_top ul li {
   display: flex;
@@ -208,8 +208,37 @@
   color: #292933;
 }
 .tavarlar .tavarlar_top ul li a:hover {
-  border-bottom: 1PX solid;
+  border-bottom: 1px solid;
   color: black;
+}
+.tavarlar .tavarlar_tanlash {
+  width: 100%;
+}
+.tavarlar .tavarlar_tanlash ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+.tavarlar .tavarlar_tanlash ul li {
+  margin-left: -35px;
+  width: 150px;
+  text-align: center;
+}
+.tavarlar .tavarlar_tanlash ul li button {
+  background-color: #292933;
+  border-radius: 15px;
+  width: 100px;
+  height: 35px;
+  color: white;
+  border: none;
+}
+.tavarlar .tavarlar_tanlash ul li button:hover {
+  color: rgb(130, 128, 128);
+}
+.tavarlar .tavarlar_tanlash ul li button:active {
+  color: white;
 }
 
 @media (max-width: 400px) {
@@ -224,5 +253,13 @@
   }
   .tavarlar .tavarlar_top ul li {
     margin-left: -25px;
+  }
+  .tavarlar .tavarlar_tanlash {
+    width: 100%;
+  }
+  .tavarlar .tavarlar_tanlash ul {
+    width: 100%;
+    list-style: none;
+    flex-wrap: wrap;
   }
 }/*# sourceMappingURL=main.css.map */
