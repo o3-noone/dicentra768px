@@ -1,0 +1,44 @@
+.tavarlar {
+    width: 768px;
+    margin: 0 auto;
+    .tavarlar_top {
+        width: 100%;
+        h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        ul {
+            list-style: none;
+            border: 1px solid red;
+            li {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                a {
+                    text-decoration: none;
+                    color: #292933
+                }
+                a:hover {
+                    border-bottom: 1PX solid;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:400px) {
+    .tavarlar {
+        width: 100%;
+        .tavarlar_top {
+            width: 100%;
+            ul {
+                width: 100%;
+                li {
+                    margin-left: -25px;
+                }
+            }
+        }
+    }
+}

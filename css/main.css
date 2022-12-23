@@ -86,7 +86,6 @@
   .header {
     width: 100%;
     height: 500px;
-    border: 1px solid red;
   }
   .header_nav {
     width: 100%;
@@ -116,7 +115,6 @@
     margin-left: 1px;
     width: 100%;
     font-size: 31px;
-    border: 1px solid red;
   }
   .header_hero_text p {
     margin-left: 60px;
@@ -182,5 +180,49 @@
   }
   .gullar-haqida_list li p {
     width: 100%;
+  }
+}
+.tavarlar {
+  width: 768px;
+  margin: 0 auto;
+}
+.tavarlar .tavarlar_top {
+  width: 100%;
+}
+.tavarlar .tavarlar_top h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tavarlar .tavarlar_top ul {
+  list-style: none;
+  border: 1px solid red;
+}
+.tavarlar .tavarlar_top ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.tavarlar .tavarlar_top ul li a {
+  text-decoration: none;
+  color: #292933;
+}
+.tavarlar .tavarlar_top ul li a:hover {
+  border-bottom: 1PX solid;
+  color: black;
+}
+
+@media (max-width: 400px) {
+  .tavarlar {
+    width: 100%;
+  }
+  .tavarlar .tavarlar_top {
+    width: 100%;
+  }
+  .tavarlar .tavarlar_top ul {
+    width: 100%;
+  }
+  .tavarlar .tavarlar_top ul li {
+    margin-left: -25px;
   }
 }/*# sourceMappingURL=main.css.map */
