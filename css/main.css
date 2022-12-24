@@ -361,4 +361,77 @@
     list-style: none;
     flex-wrap: wrap;
   }
+}
+.chiroyli-buket {
+  width: 768px;
+  border: 1px solid red;
+  margin: 0 auto;
+  height: 300px;
+  background-image: url("../images/background.png");
+}
+.chiroyli-buket h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.chiroyli-buket p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.chiroyli-buket .selectr {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.chiroyli-buket .selectr select {
+  width: 150px;
+  height: 35px;
+  border-radius: 15px;
+}
+.chiroyli-buket button {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 15px;
+  background-color: #B69B89;
+  color: white;
+  height: 40px;
+  border: none;
+}
+
+@media (max-width: 400px) {
+  .chiroyli-buket {
+    width: 100%;
+    height: 400px;
+  }
+  .chiroyli-buket h3 {
+    width: 300px;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .chiroyli-buket p {
+    width: 300px;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .chiroyli-buket .selectr {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .chiroyli-buket .selectr select {
+    width: 250px;
+    margin-top: 10px;
+  }
+  .chiroyli-buket button {
+    width: 100%;
+    margin-top: 30px;
+    width: 250px;
+  }
 }/*# sourceMappingURL=main.css.map */
