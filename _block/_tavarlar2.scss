@@ -1,0 +1,59 @@
+.tavarlar2 {
+    width: 768px;
+    margin: 0 auto;
+    background-color: #F6F3F1;
+    .tavarlar2_top {
+        width: 100%;
+        h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .tavarlar2_tanlash {
+        width: 100%;
+        ul {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            list-style: none;
+            li {
+                margin-left: -35px;
+                width: 150px;
+                text-align: center;
+                button {
+                    background-color: #292933;
+                    border-radius: 15px;
+                    width: 100px;
+                    height: 35px;
+                    color: white;
+                    border: none;
+                }
+                button:hover {
+                    color: rgb(130, 128, 128);
+                }
+                button:active {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:400px) {
+    .tavarlar2 {
+        width: 100%;
+        .tavarlar2_top {
+            width: 100%;
+        }
+        .tavarlar2_tanlash {
+            width: 100%;
+            ul {
+                width: 100%;
+                list-style: none;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
